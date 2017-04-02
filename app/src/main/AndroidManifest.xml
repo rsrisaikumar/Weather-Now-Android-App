@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.srisaikumar.weathernow">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AddCity"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.weathernow.AddCity"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            </activity>
+        <activity android:name=".ViewNotes"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.weathernow.ViewNotes"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".CityData"
+            android:theme="@style/MyMaterialTheme"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.weathernow.CityData"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Details"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.weathernow.Details"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddNotes"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.weathernow.AddNotes"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Notes"
+            >
+            <intent-filter>
+                <action android:name="com.example.srisaikumar.weathernow.Notes"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+</manifest>

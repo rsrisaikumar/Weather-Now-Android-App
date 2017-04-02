@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Weather Now</string>
+    <string name="addCity">Add City</string>
+    <string name="clearSavedCity">Clear Saved City</string>
+    <string name="viewNotes">View Notes</string>
+    <string name="hint_editCity">City Name(Eg. Charlotte)</string>
+    <string name="hint_editState">State Initial(Eg. NC)</string>
+    <string name="button_saveCity">Save City</string>
+    <string name="text_def">There are no cities to display. Add using the \"ADD CITY\" button from the options menu</string>
+    <string name="text_loadingCities">Loading Cities</string>
+    <string name="hourly_data">HOURLY DATA</string>
+    <string name="forecast">FORECAST</string>
+    <string name="text_hdloading">Loading Hourly Data</string>
+    <string name="text_fcloading">Loading Forecast Data</string>
+    <string name="curr_loc_label">Current Location:</string>
+    <string name="slash">/</string>
+    <string name="max_label">Max Temperature:</string>
+    <string name="min_label">Min Temperature:</string>
+    <string name="feelslike">Feels Like:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="dewpoint">Dewpoint:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="clouds">Clouds:</string>
+    <string name="winds">Winds:</string>
+    <string name="noteText">Enter Note between 1 and 30 characters</string>
+    <string name="saveNote">Save Note</string>
+    <item type="id" name="main_lin"/>
+    <item type="id" name="tv"/>
+    <item type="id" name="details_lin"/>
+    <item type="id" name="details_progress"/>
+    <item type="id" name="details_im_lin"/>
+</resources>

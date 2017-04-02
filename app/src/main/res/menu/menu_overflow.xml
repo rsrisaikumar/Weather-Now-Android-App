@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/action_addCity"
+    android:title="@string/addCity"
+    app:showAsAction="never"/>
+    <item android:id="@+id/action_clearSavedCity"
+        android:title="@string/clearSavedCity"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_viewNotes"
+        android:title="@string/viewNotes"
+        app:showAsAction="never"/>
+
+</menu>
